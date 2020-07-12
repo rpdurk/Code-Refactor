@@ -8,28 +8,20 @@ body {
     background-color: #d9dcd6;
 }
 /*Style for the header*/
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 /*Style h1 header containing the title*/
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
     color: #d9dcd6;
 }
-/*Style for the nav list on the header*/
-.nav-list {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-    font-size: 20px;
-}
 /*Size & inline style for header*/
-.header div ul {
+header nav ul {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
@@ -37,11 +29,19 @@ body {
     text-decoration: none;
 }
 /*This does something, different, but why??*/
-.header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
     color: #ffffff;
     text-decoration: none;
+}
+/*Style for the nav list on the header*/
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    font-size: 20px;
 }
 /*color for <a>*/
 a {
@@ -61,23 +61,19 @@ p {
     background-size: cover;
     background-position: center;
 }
-
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,25 +98,7 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
+.product-information {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -138,7 +116,7 @@ p {
     font-size: 36px;
 }
 /* spacing, style, font, size and alignment for footer*/
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
