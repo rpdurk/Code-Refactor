@@ -9,7 +9,7 @@ Alterations:
 Increased SEO with altered tag names.
 Improved CSS flow and conciseness with changes to tag names, classes, and IDs, without compromising visual appearance of website.
 
-![](Screenshot.png)
+![Website Screen Shots](./assets/images/Screenshot.png)
 
 Contributions:
 Ryan Durk
